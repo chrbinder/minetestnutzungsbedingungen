@@ -4,7 +4,7 @@ local RULES = [[
 Nutzungsbedingungen
 1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (Gebaute und abgebaute Elemente sowie Äußerungen im Chat)
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben. 
-Auf Bestätigen klicken, um Baurechte zu erhalten.
+Auf JA klicken, um Baurechte zu erhalten.
 Danke 
 ]]
 
