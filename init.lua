@@ -1,5 +1,5 @@
-# Based on https://github.com/ChaosWormz/mt_terms_of_use
-# vgl https://github.com/davisonio/craig-server_game/blob/df8beb15e6b02ab6dd22f94349453c51819238c4/mods/_misc/rules.lua
+-- Based on https://github.com/ChaosWormz/mt_terms_of_use
+-- Based on https://github.com/davisonio/craig-server_game/blob/df8beb15e6b02ab6dd22f94349453c51819238c4/mods/_misc/rules.lua
 
 local RULES = [[
 Nutzungsbedingungen
