@@ -1,9 +1,12 @@
 # Based on https://github.com/ChaosWormz/mt_terms_of_use
+# vgl https://github.com/davisonio/craig-server_game/blob/df8beb15e6b02ab6dd22f94349453c51819238c4/mods/_misc/rules.lua
 
 local RULES = [[
 Nutzungsbedingungen
 1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (Gebaute und abgebaute Elemente sowie Äußerungen im Chat)
-2) Ich werde nichts mutwillig zerstören, was andere gebaut haben. 
+2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
+3) Keine Beleidigungen im Chat.
+4) Den Anweisungen der Admins ist Folge zu leisten.
 Auf JA klicken, um Baurechte zu erhalten.
 Danke 
 ]]
