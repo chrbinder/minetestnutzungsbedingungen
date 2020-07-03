@@ -29,7 +29,7 @@ minetest.register_on_player_receive_fields(function(player, formname, fields)
 		end
 		return
 	elseif fields.decline then
-		minetest.chat_send_player(name, "Du kannst dich umschauen, aber nicht aktiv bauen. Wenn du es dir anders überlegt hast, schreibe noch einmal /nutzungsbedingungen in den Chat")
+		minetest.chat_send_player(name, "Du kannst dich umschauen, aber nicht aktiv bauen. Wenn du es dir anders überlegt hast, schreibe noch einmal /nutzungsbedingungen in den Chat.")
 		return
 	end
 end)
