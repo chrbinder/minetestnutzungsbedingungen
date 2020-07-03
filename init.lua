@@ -12,7 +12,7 @@ local function make_formspec()
 	local size = { "size[10,8]" }
 	table.insert(size, "textarea[0.5,0.5;9.5,8;TOS;Das sind die Nutzungsbedingungen. Bitte klicken, um sie zu bestätigen;"..RULES.."]")
 	table.insert(size, "button_exit[6,7.4;1.5,0.5;accept;JA]")
-	table.insert(size, "button[7.5,7.4;1.5,0.5;decline;NEIN]")
+	table.insert(size, "button_exit[7.5,7.4;1.5,0.5;decline;NEIN]")
 	return table.concat(size)
 end
 
