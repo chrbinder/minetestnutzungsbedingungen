@@ -5,10 +5,10 @@ local E = minetest.formspec_escape
 
 local rules = [[
 Die Nutzungsbedingungen bitte mit JA bestätigen, um Baurechte zu erhalten. 
-1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (Gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten)
+1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten).
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
-3) Keine Beleidigungen im Chat.
-4) Den Anweisungen der Admins ist Folge zu leisten.
+3) Keine Beleidigungen im Chat. Keine Dauergroßschreibung oder sinnlose Anhäufung von Zeichen im Chat.
+4) Den Anweisungen der Admins ist Folge zu leisten. Sie können Spieler nach Verwarnung vorübergehend oder dauerhaft vom Server verbannen.
 Dieser Minetest Server wird gehostet auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland). 
 Verantwortlich für den Datenschutz: Fabian Karg, LMZ Baden-Württemberg, karg@lmz-bw.de
 ]]
