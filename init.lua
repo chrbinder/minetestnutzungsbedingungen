@@ -4,17 +4,17 @@
 local E = minetest.formspec_escape
 
 local rules = [[
-Nutzungsbedingungen
-1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (Gebaute und abgebaute Elemente sowie Äußerungen im Chat)
+Die Nutzungsbedingungen bitte mit JA bestätigen, um Baurechte zu erhalten. 
+1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (Gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten)
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
 3) Keine Beleidigungen im Chat.
 4) Den Anweisungen der Admins ist Folge zu leisten.
-Auf JA klicken, um Baurechte zu erhalten.
-Danke 
+Dieser Minetest Server wird gehostet auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland). 
+Verantwortlich für den Datenschutz: Fabian Karg, LMZ Baden-Württemberg, karg@lmz-bw.de
 ]]
 
 local formspec = "size[10,8]"
-	.. "textarea[0.5,0.5;9.5,8;TOS;" .. E("Das sind die Nutzungsbedingungen. Bitte klicken, um sie zu bestätigen") .. ";" .. E(rules) .. "]"
+	.. "textarea[0.5,0.5;9.5,8;TOS;" .. E("NUTZUNGSBEDINGUNGEN") .. ";" .. E(rules) .. "]"
 	.. "button_exit[6,7.5;1.5,0.5;accept;JA]"
 	.. "button_exit[7.5,7.5;1.5,0.5;decline;NEIN]"
 
