@@ -14,19 +14,19 @@ Danke
 ]]
 
 local formspec = "size[10,8]"
-	.. "textarea[0.5,0.5;9.5,8;TOS;" .. E("Das sind die Nutzungsbedingungen. Bitte klicken, um sie zu bestätigen") .. ";" .. E(rules) .. "]")
-	.. "button_exit[6,7.4;1.5,0.5;accept;JA]"
-	.. "button_exit[7.5,7.4;1.5,0.5;decline;NEIN]"
+	.. "textarea[0.5,0.5;9.5,8;TOS;" .. E("Das sind die Nutzungsbedingungen. Bitte klicken, um sie zu bestätigen") .. ";" .. E(rules) .. "]"
+	.. "button_exit[6,7.5;1.5,0.5;accept;JA]"
+	.. "button_exit[7.5,7.5;1.5,0.5;decline;NEIN]"
 
 local function show_formspec(name)
-	minetest.show_formspec(name, "rules", make_formspec())
+	minetest.show_formspec(name, "rules", formspec)
 end
 
 minetest.register_on_player_receive_fields(function(player, formname, fields)
 	if formname ~= "rules" then return end
 	local name = player:get_player_name()
 	if fields.accept then
-		if minetest.check_player_privs(name, {shout=true}) then
+		if minetest.check_player_privs(name, {shout = true}) then
 			minetest.chat_send_player(name, "Danke für die Besätigung der Nutzungsbedingungen, du bekommst jetzt Baurechte.")
 			minetest.chat_send_player(name, "Viel Spaß beim Bauen.")
 			local privs = minetest.get_player_privs(name)
@@ -49,6 +49,6 @@ minetest.register_chatcommand("nutzungsbedingungen", {
 minetest.register_on_joinplayer(function(player)
 	local name = player:get_player_name()
 	if not minetest.check_player_privs(name, {interact = true}) then
-		show_formspec()
+		show_formspec(name)
 	end
 end)
