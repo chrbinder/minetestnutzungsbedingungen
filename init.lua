@@ -4,13 +4,20 @@
 local E = minetest.formspec_escape
 
 local rules = [[
-Die Nutzungsbedingungen bitte mit JA bestätigen, um Baurechte zu erhalten. 
-1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten).
+Die Nutzungsbedingungen und die Hinweise zum Datenschutz musst du mit "Ja" bestätigen, um Baurechte zu erhalten. 
+
+1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten). Weitere Hinweise zum Datenschutz werde ich unter www.lmz-bw.de/minetest nachlesen!
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
-3) Keine Beleidigungen im Chat. Keine Dauergroßschreibung oder sinnlose Anhäufung von Zeichen im Chat.
-4) Den Anweisungen der Admins ist Folge zu leisten. Sie können Spieler nach Verwarnung vorübergehend oder dauerhaft vom Server verbannen.
-Dieser Minetest Server wird gehostet auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland). 
-Verantwortlich für den Datenschutz: Fabian Karg, LMZ Baden-Württemberg, karg@lmz-bw.de
+3) Im Chat beleidige ich niemanden. Ich schreibe nicht dauerhaft große Buchstaben und spamme den Chat nicht zu. 
+4) Den Anweisungen der Administratoren ist Folge zu leisten. Sie können Spieler nach Verwarnung vorübergehend oder dauerhaft vom Server verbannen.
+5) Die genauen Nutzungsbedingungen habe ich unter www.lmz-bw.de/minetest nachgelesen. 
+6) Den folgenden Hinweis habe ich gelesen und mit meinen Eltern besprochen: Dieser Minetest Server wird gehostet auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland). 
+
+Falls du nicht zustimmen möchtest, verlasse bitte den Server. :-) 
+
+Verantwortlich für den Datenschutz ist Fabian Karg, Landesmedienzentrum Baden-Württemberg, karg@lmz-bw.de
+Weitere Hinweise sind unter www.lmz-bw.de/minetest zu finden.
+
 ]]
 
 local formspec = "size[10,8]"
