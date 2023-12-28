@@ -7,10 +7,10 @@ local E = minetest.formspec_escape
 local rules = [[
 Die Nutzungsbedingungen und die Hinweise zum Datenschutz musst du mit "Ja" bestätigen, um Baurechte zu erhalten. 
 
-1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spieler:innen, die sich nicht an die Regeln halten). Weitere Hinweise zum Datenschutz werde ich unter  https://wiki.blockalot.de/doku.php?id=datenschutz-nutzungsbedingungen  nachlesen!
+1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spieler:innen, die sich nicht an die Regeln halten). Weitere Hinweise zum Datenschutz werde ich unter  https://wiki.blockalot.de/doku.php?id=datenschutz-nutzungsbedingungen nachlesen!
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
 3) Griefing ist untersagt. Unter Griefing fallen z.B.:
-	- Das Setzen von Lava oder Wasser an fremdem Eingentum
+	- Das Setzen von Lava oder Wasser an fremdem Eigentum
 	- Das Zerstören von fremden Bauwerken
 	- Zubauen von Hauseingängen
 	- Verunstaltung der Landschaft
