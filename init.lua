@@ -7,17 +7,20 @@ local E = minetest.formspec_escape
 local rules = [[
 Die Nutzungsbedingungen und die Hinweise zum Datenschutz musst du mit "Ja" bestätigen, um Baurechte zu erhalten. 
 
-1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spielern, die sich nicht an die Regeln halten). Weitere Hinweise zum Datenschutz werde ich unter www.blockalot.de nachlesen!
+1) Ich bin damit einverstanden, dass Daten, die notwendig sind für das Spiel, auf dem Server gespeichert werden (gebaute und abgebaute Elemente sowie Äußerungen im Chat, IP-Adresse für das Bannen von Spieler:innen, die sich nicht an die Regeln halten). Weitere Hinweise zum Datenschutz werde ich unter  https://wiki.blockalot.de/doku.php?id=datenschutz-nutzungsbedingungen  nachlesen!
 2) Ich werde nichts mutwillig zerstören, was andere gebaut haben.
-3) Im Chat beleidige ich niemanden. Ich schreibe nicht dauerhaft große Buchstaben und spamme den Chat nicht zu. 
-4) Den Anweisungen der Administratoren ist Folge zu leisten. Sie können Spieler nach Verwarnung vorübergehend oder dauerhaft vom Server verbannen.
-5) Die genauen Nutzungsbedingungen habe ich unter www.lmz-bw.de/minetest nachgelesen. 
-6) Bei Minderjährigen: Den folgenden Hinweis habe ich gelesen und mit meinen Eltern besprochen: Dieser Minetest Server wird gehostet auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland).
+3) Griefing ist untersagt. Unter Griefing fallen z.B.:
+	- Das Setzen von Lava oder Wasser an fremdem Eingentum
+	- Das Zerstören von fremden Bauwerken
+	- Zubauen von Hauseingängen
+	- Verunstaltung der Landschaft
+	- Das Töten von fremden Tieren.
+4) Im Chat beleidige ich niemanden. Ich schreibe nicht dauerhaft große Buchstaben und spamme den Chat nicht zu.
+5) Den Anweisungen der Administrator:innen ist Folge zu leisten. Sie können Spieler:innen nach Verwarnung vorübergehend oder dauerhaft vom Server verbannen.
+5) Die genauen Nutzungsbedingungen habe ich unter  https://wiki.blockalot.de/doku.php?id=datenschutz-nutzungsbedingungen  nachgelesen.
+7) Ich bin darüber informiert worden, dass dieser Minetest Server auf einem dedizierten Ubuntu Linux Server der Firma Hetzner mit Standort in Falkenstein (Deutschland) gehostet wird.
 
-Falls du nicht zustimmen möchtest, verlasse bitte den Server. :-) 
-
-Ansprechpartnerin und verantwortlich für den Datenschutz ist Stephanie Wössner vom Landesmedienzentrum Baden-Württemberg (woessner@lmz-bw.de).
-Weitere Hinweise sind unter www.blockalot.de finden.
+Falls du nicht zustimmen möchtest, verlasse bitte den Server.
 
 ]]
 
